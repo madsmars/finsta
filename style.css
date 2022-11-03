@@ -1,6 +1,7 @@
 body {
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +22,7 @@ footer {
 
 h1 {
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 10;
 }
 
@@ -49,17 +50,36 @@ grid-gap: 20px;
 #profile-pic {
 
     border-radius: 50%;
-    padding: 50px;
+    padding: 50px 60px;
     width: 120px;
     padding-top: 40px;
 
 }
 
 .link {
-    color: black;
-    font-size: 12px;
+    color: navy;
+    font-size: 13px;
+    padding-top: 0%;
 }
 
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
 p {
-    font-size: 12px;
+    font-size: 13px;
+    margin: 0px;
+
+}
+
+.numbers {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
