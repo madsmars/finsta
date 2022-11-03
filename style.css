@@ -32,6 +32,18 @@ h1 {
 
 }
 
+.spotlight {
+    border-radius: 50%;
+    
+    width:60px;
+    display: flex;
+}
+
+.spotlight > img {
+    border-radius: 50%;
+    width: 100%;
+    padding: 50px 20px;
+}
 .gallery {
 
 display: grid;
