@@ -14,8 +14,9 @@ header {
 
     display: flex;
     max-width: 900px;
-
 }
+
+main {}
 
 footer {
     background-color: white;
@@ -33,16 +34,20 @@ h1 {
 
 }
 
-.nav-bar {
-    align-items: center;
-    font-size: 10px;
-}
-
 .spotlight {
     border-radius: 50%;
     
     width:60px;
     display: flex;
+}
+
+.emojis {
+    font-size: 12px;
+}
+
+.nav-bar {
+    align-items: center;
+    font-size: 10px;
 }
 
 .spotlight > img {
