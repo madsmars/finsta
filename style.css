@@ -1,9 +1,38 @@
+.left {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-self: flex-start;
+    color: #333333;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 10%;
+    height: 200vh;
+    background-color: pink;
+    padding: 20px;
+    line-height: 40px;
+    top: px;
+}
+
+.side-link {
+    color:#333333
+}
+
+.side-link:hover {
+    color: white;
+}
+
+.copyright {
+    font-size: 8px;
+    position:fixed;
+    bottom: 10px;
+    color:#333333
+}
+
 body {
 
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 50%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     background: white; 
     height: 100vh;
@@ -16,7 +45,87 @@ header {
     max-width: 900px;
 }
 
-main {}
+    .title {
+    color: grey;
+    }
+
+    #bio {
+        line-height: 20px;
+    }
+
+    #profile-pic {
+        border-radius: 50%;
+        padding: 50px 60px;
+        width: 120px;
+        padding-top: 40px;
+    }
+
+    .link {
+        color: #135A90;
+        font-size: 13px;
+        padding-top: 0%;
+    }
+
+    .link:hover {
+        color: pink;
+    }
+
+    .numbers {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .words {
+        font-size: 12px;
+        size: auto;
+        max-width: 30vw;
+    }
+
+main {
+padding-left: 290px;
+}
+
+    .spotlight {
+    border-radius: 50%;
+    width:70px;
+    display: flex;
+    }
+
+    .emojis {
+        font-size: 12px;
+        text-align: center;
+        padding: 0px 15px 40px;
+        word-spacing: 75px;
+    }
+
+    .nav-bar {
+        text-align: center;
+        font-size: 10px;
+        color;: #333333;
+        accent-color: pink;
+        height: 6vh;
+    }
+
+    .spotlight > img {
+        border-radius: 50%;
+        width: 100%;
+        padding: 50px 15px 15px;
+        word-spacing: 75px;
+    }
+
+    .gallery {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        max-width: 700px;
+        grid-gap: 20px;
+        border: 0;
+        }
+
+    .gallery > img {
+        width: 100%;
+    }
 
 footer {
     background-color: white;
@@ -26,63 +135,6 @@ h1 {
     color: #333333;
     font-size: 22px;
     font-weight: 5;
-}
-
-.title {
-
-    color: grey;
-
-}
-
-.spotlight {
-    border-radius: 50%;
-    
-    width:70px;
-    display: flex;
-}
-
-.emojis {
-    font-size: 12px;
-}
-
-.nav-bar {
-    align-items: center;
-    font-size: 10px;
-}
-
-.spotlight > img {
-    border-radius: 50%;
-    width: 100%;
-    padding: 50px 15px;
-}
-.gallery {
-
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-width: 100%;
-max-width: 700px;
-grid-gap: 20px;
-
-}
-
-.gallery > img {
-    width: 100%;
-}
-
-
-#profile-pic {
-
-    border-radius: 50%;
-    padding: 50px 60px;
-    width: 120px;
-    padding-top: 40px;
-
-}
-
-.link {
-    color: #135A90;
-    font-size: 13px;
-    padding-top: 0%;
 }
 
 a:link { text-decoration: none; }
@@ -100,9 +152,4 @@ p {
     font-size: 13px;
     margin: 0px;
 
-}
-
-.numbers {
-    padding-top: 10px;
-    padding-bottom: 20px;
 }
