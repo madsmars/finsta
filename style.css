@@ -10,6 +10,7 @@
     background-color: pink;
     padding: 20px;
     line-height: 40px;
+    max-width: 200px;
 
     flex:1%;
 }
@@ -41,11 +42,15 @@ body {
     flex-wrap: wrap;
 }
 
+#right {
+    flex-wrap: wrap;
+}
+
 header {
 
     display: flex;
     max-width: 900px;
-    flex:10%;
+    padding-left: 200px;
 }
 
     .title {
@@ -85,7 +90,7 @@ header {
     }
 
 main {
-padding-left: 290px;
+padding-left: 220px;
 flex:10%;
 }
 
@@ -93,13 +98,14 @@ flex:10%;
     border-radius: 50%;
     width:70px;
     display: flex;
+    padding-left: 100px;
     }
 
     .emojis {
         font-size: 12px;
-        text-align: center;
         padding: 0px 15px 40px;
-        word-spacing: 75px;
+        word-spacing: 60px;
+        padding-left: 130px;
     }
 
     .nav-bar {
