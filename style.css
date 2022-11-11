@@ -10,7 +10,8 @@
     background-color: pink;
     padding: 20px;
     line-height: 40px;
-    top: px;
+
+    flex:1%;
 }
 
 .side-link {
@@ -37,12 +38,14 @@ body {
     background: white; 
     height: 100vh;
     color: #333333;
+    flex-wrap: wrap;
 }
 
 header {
 
     display: flex;
     max-width: 900px;
+    flex:10%;
 }
 
     .title {
@@ -83,6 +86,7 @@ header {
 
 main {
 padding-left: 290px;
+flex:10%;
 }
 
     .spotlight {
