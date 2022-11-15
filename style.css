@@ -11,23 +11,66 @@
     padding: 20px;
     line-height: 40px;
     max-width: 200px;
-    text-align: right;
+
     flex:1%;
 }
 
-.side-link {
+.side-link1 {
+    color:#333333;
+}
+
+.side-link1:hover {
+    color: #bcb72a;
+}
+.side-link2 {
+    color: #333333;
+}
+
+.side-link2:hover {
+    color: #e34a4a;
+}
+.side-link3 {
     color:#333333
 }
 
-.side-link:hover {
-    color: white;
+.side-link3:hover {
+    color: #c1aadf;
 }
+.side-link4 {
+    color:#333333;
+}
+
+.side-link4:hover {
+    color: #ffb2c2;
+}
+.side-link5 {
+    color:#333333;
+}
+
+.side-link5:hover {
+    color: #c1aadf;
+}
+.side-link6 {
+    color:#333333;
+}
+
+.side-link6:hover {
+    color: #bcb72a;
+}
+.side-link7 {
+    color:#333333;
+}
+
+.side-link7:hover {
+    color: #ffb2c2;
+}
+
 
 .copyright {
     font-size: 8px;
     position:fixed;
     bottom: 10px;
-    color:#333333
+    color:#333333;
 }
 
 body {
