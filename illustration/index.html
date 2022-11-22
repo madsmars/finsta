@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="library/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/library/lightbox2/dist/css/lightbox.css">
 </head>
 <body>
     <nav class="left">
@@ -54,27 +54,90 @@
             digital traditional fashion fanart comics
         </div>
 
-        <div class="nav-bar">
+        <!-- <nav class="nav-bar" id="project-nav">
             <p>project1 &nbsp; &nbsp; &nbsp; &nbsp; project2 &nbsp; &nbsp; &nbsp; &nbsp; project3 &nbsp; &nbsp; &nbsp; &nbsp; project4 &nbsp; &nbsp; &nbsp; &nbsp; project5</p>
-        </div>
+        </nav> -->
 
-        <div class="gallery">
+        <nav class="nav-bar" id="project-nav">
+            <a href="#project1" id="project1-link">project1</a>
+            <a href="#project2" id="project1-link">project2</a>
+            <a href="#project3" id="project1-link">project3</a>
+            <a href="#project4" id="project1-link">project4</a>
+            <a href="#project5" id="project1-link">project5</a>
+        </nav>
+
+        <div class="gallery" id="project1">
+
+            <!-- BTS -->
             
-                <a href="images/bts/bts1.png" href="images/bts/bts2.png" href="images/bts/bts3.png" href="images/bts/bts4.png"><img src="images/bts/bts0.png" data-lightbox="bts"></a>
+                <a href="images/bts/bts1.png" data-lightbox="bts">
+                    <img src="images/bts/bts0.png">  
+                </a>
+                <a href="images/bts/bts2.png" data-lightbox="bts" class="hidden"></a>
+                <a href="images/bts/bts3.png" data-lightbox="bts" class="hidden"></a>
+                <a href="images/bts/bts4.png" data-lightbox="bts" class="hidden"></a>
 
-                <a href="images/nas/nas1.jpeg" href="images/nas/nas2.jpeg" href="images/nas/nas3.jpeg" href="images/nas/nas4.jpeg"><img src="images/nas/nas0.jpeg" data-lightbox="nas"></a>
+                <!-- LIL NAS -->
 
-                <a href="images/anime/anime1.jpeg" href="images/anime/anime2.jpeg" href="images/anime/anime3.jpeg" href="images/anime/anime4.jpeg"><img src="images/anime/anime0.jpeg" data-lightbox="anime"></a>
+                <a href="images/nas/nas1.jpeg" data-lightbox="nas">
+                    <img src="images/nas/nas0.jpeg">  
+                </a>
+                <a href="images/nas/nas2.jpeg" data-lightbox="nas" class="hidden"></a>
+                <a href="images/nas/nas3.jpeg" data-lightbox="nas" class="hidden"></a>
+                <a href="images/nas/nas4.jpeg" data-lightbox="nas" class="hidden"></a>
 
-                <a href="images/jesus/jesus1.png" href="images/jesus/jesus2.png" href="images/jesus/jesus3.png" href="images/jesus/jesus4.png"><img src="images/jesus/jesus0.png" data-lightbox="jesus"></a>
+                <!-- ANIME -->
 
-                <a href="images/smoon/smoon1.mov" href="images/smoon/smoon2.mov" href="images/smoon/smoon3.mov" ><img src="images/smoon/smoon0.gif" data-lightbox="smoon"></a>
+                <a href="images/anime/anime1.jpeg" data-lightbox="anime">
+                    <img src="images/anime/anime0.jpeg">  
+                </a>
+                <a href="images/anime/anime2.jpeg" data-lightbox="anime" class="hidden"></a>
+                <a href="images/anime/anime3.jpeg" data-lightbox="anime" class="hidden"></a>
+                <a href="images/anime/anime4.jpeg" data-lightbox="anime" class="hidden"></a>
 
-                <a href="images/thatthat/thatthat1.png" href="images/thatthat/thatthat2.png" href="images/thatthat/thatthat3.png" href="images/thatthat/thatthat4.jpeg"><img src="images/thatthat/thatthat0.png" data-lightbox="thatthat"></a>
+                <!-- JESUS -->
 
-                <a href="images/rebecca/rebecca1.png" href="images/rebecca/rebecca2.png" href="images/rebecca/rebecca3.png" href="images/rebecca/rebecca4.png"><img src="images/rebecca/rebecca0.png" data-lightbox="rebecca"></a>
+                <a href="images/jesus/jesus1.png" data-lightbox="jesus">
+                    <img src="images/jesus/jesus0.png">  
+                </a>
+                <a href="images/jesus/jesus2.png" data-lightbox="jesus" class="hidden"></a>
+                <a href="images/jesus/jesus3.png" data-lightbox="jesus" class="hidden"></a>
+                <a href="images/jesus/jesus4.png" data-lightbox="jesus" class="hidden"></a>
 
-                <a href="images/jimin/jimin1.png" href="images/jimin/jimin2.png" href="images/jimin/jimin3.png" href="images/jimin/jimin4.png"><img src="images/jimin/jimin0.png" data-lightbox="jimin"></a>       
+                <!-- SAILOR MOON -->
+
+                <a href="images/smoon/smoon1.mov" data-lightbox="smoon">
+                    <img src="images/smoon/smoon0.gif">  
+                </a>
+                <a href="images/smoon/smoon2.mov" data-lightbox="smoon" class="hidden"></a>
+                <a href="images/smoon/smoon3.mov" data-lightbox="smoon" class="hidden"></a>
+
+                <!-- THAT THAT -->
+
+                <a href="images/thatthat/thatthat1.png" data-lightbox="thatthat">
+                    <img src="images/thatthat/thatthat0.png">  
+                </a>
+                <a href="images/thatthat/thatthat2.png" data-lightbox="thatthat" class="hidden"></a>
+                <a href="images/thatthat/thatthat3.png" data-lightbox="thatthat" class="hidden"></a>
+                <a href="images/thatthat/thatthat4.jpeg" data-lightbox="thatthat" class="hidden"></a>
+
+                <!-- REBECCA -->
+
+                <a href="images/rebecca/rebecca1.png" data-lightbox="rebecca">
+                    <img src="images/rebecca/rebecca0.png">  
+                </a>
+                <a href="images/rebecca/rebecca2.png" data-lightbox="rebecca" class="hidden"></a>
+                <a href="images/rebecca/rebecca3.png" data-lightbox="rebecca" class="hidden"></a>
+                <a href="images/rebecca/rebecca4.png" data-lightbox="rebecca" class="hidden"></a>
+
+                <!-- JIMIN -->
+
+                <a href="images/jimin/jimin1.png" data-lightbox="jimin">
+                    <img src="images/jimin/jimin0.png">  
+                </a>
+                <a href="images/jimin/jimin2.png" data-lightbox="jimin" class="hidden"></a>
+                <a href="images/jimin/jimin3.png" data-lightbox="jimin" class="hidden"></a>
+                <a href="images/jimin/jimin4.png" data-lightbox="jimin" class="hidden"></a>      
         </div>
     </main>
 </div>
@@ -85,6 +148,6 @@
         <a class="help" href="/help">what is going on with this website ?</a>
     </footer>
 
-    <script src="library/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+    <script src="/library/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
 </body>
 </html>
