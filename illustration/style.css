@@ -144,15 +144,15 @@ flex:10%;
     }
 
     .emojis {
-        font-size: 12px;
+        font-size: 20px;
         padding: 0px 15px 40px;
-        word-spacing: 60px;
-        padding-left: 130px;
+        word-spacing: 48px;
+        padding-left: 10px;
     }
 
     .nav-bar {
         text-align: center;
-        font-size: 10px;
+        font-size: 15px;
         color: #333333;
         accent-color: pink;
         height: 6vh;
@@ -203,6 +203,10 @@ flex:10%;
             position:fixed;
             bottom: 10px;
             right: 20px;
+        }
+
+        .gallery-container:nth-child(1) {
+            display: block;
         }
 
 h1 {

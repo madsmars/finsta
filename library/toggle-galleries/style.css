@@ -35,13 +35,13 @@ header, footer {
     display: none;
 }
 
+.gallery-container:nth-child(1) {
+    display: block;
+}
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-}
-
-.gallery-container:nth-child(1) {
-    display: block;
 }
 
 .gallery img {
