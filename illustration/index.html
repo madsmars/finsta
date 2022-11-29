@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,12 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="/library/lightbox2/dist/css/lightbox.css">
+    <script src="main.js" defer></script>
 </head>
+
 <body>
     <nav class="left">
-       <img src="images/skatejump.png" alt="a placeholder logo">
+        <img src="images/skatejump.png" alt="a placeholder logo">
         <a class="side-link1" href="/"><span style="color: #bcb72a">☺</span> home</a>
         <a class="side-link2" href="/bio"><span style="color: #bcb72a">☺</span> profile</a>
         <a class="side-link3" href="/storyboards"><span style="color: #bcb72a">☺</span> storyboards</a>
@@ -21,59 +24,55 @@
         <a class="side-link6" href="/contact"><span style="color: #bcb72a">☺</span> contact</a>
         <a class="side-link7" href="/sketchbook"><span style="color: #bcb72a">☺</span> sketchbook</a>
     </nav>
-<div id="right">
-    <header>
-        <div>
-            <img id="profile-pic" src="images/finstaprofile.jpeg" alt="pic of me">
-        </div>
-
-        <div id="bio">
-            <h1>illustrations by mars</h1>
-            <p class="numbers"><b>48 </b>posts &nbsp; &nbsp; &nbsp; &nbsp;<b>enough </b>followers &nbsp; &nbsp; &nbsp; &nbsp; following <b>you</b></p>
-            <div id="bio"><p><b>mads mars</b> <span style="color: grey">she/they</span> </p>
-            <p class="title">artist</p>
-            <div class="words">blah blah blah artist statement specific to illustration. navegate through work according to medium  by clicking the small pictures or see high res pics and descriptions by clicking the larger pictures. rewrite this duh. maybe add some emojis?
+    <div id="right">
+        <header>
+            <div>
+                <img id="profile-pic" src="images/finstaprofile.jpeg" alt="pic of me">
             </div>
-            <p></p> <b><a class="link" href="https://www.instagram.com/madiemars/" target="_blank" rel="noopener noreferrer">https://www.instagram.com/madiemars/</a></b></p>
-            </div>
-        </div>
 
-    </header>
+            <div id="bio">
+                <h1>illustrations by mars</h1>
+                <p class="numbers"><b>48 </b>posts &nbsp; &nbsp; &nbsp; &nbsp;<b>enough </b>followers &nbsp; &nbsp;
+                    &nbsp; &nbsp; following <b>you</b></p>
+                <!-- <div id="bio"> -->
+                    <p><b>mads mars</b> <span style="color: grey">she/they</span> </p>
+                    <p class="title">artist</p>
+                    <div class="words">blah blah blah artist statement specific to illustration. navegate through work
+                        according to medium by clicking the small pictures or see high res pics and descriptions by
+                        clicking the larger pictures. rewrite this duh. maybe add some emojis?
+                    <!-- </div> -->
+                    <p> <b><a class="link" href="https://www.instagram.com/madiemars/" target="_blank"
+                                rel="noopener noreferrer">https://www.instagram.com/madiemars/</a></b></p>
+                </div>
+            </div>
+        </header>
+    </div>
 
     <main>
 
         <div class="spotlight">
-            <img src="images/spotlight/pic1.jpeg" alt="💖ㅅ💖"></button>
-            <img src="images/spotlight/pic2.jpeg" alt="me">
-            <img src="images/spotlight/pic3.jpeg" alt="pool girl">
-            <img src="images/spotlight/pic4.jpeg" alt="painting">
-            <img src="images/spotlight/pic5.jpeg" alt="cupid">
+            <!-- <img src="images/digital" class="gallery-link" alt="digital">
+            <img src="images/traditional" class="gallery-link" alt="traditional"> -->
+            <img src="images/fashion/bwego/bwego0.jpeg" alt="fashion">
+            <img src="images/fanart/nas/nas0.jpeg" alt="fanart">
+            <img src="images/comics/date/date0.png" alt="comics">
         </div>
 
         <div class="emojis">
             <nav class="nav-bar" id="project-nav">
-                <a href="#digital" id="digital">digital</a>
-                <a href="#traditional" id="traditional">traditional</a>
-                <a href="#fashion" id="fashion">fashion</a>
-                <a href="#fanart" id="fanart">fanart</a>
-                <a href="#comics" id="comics">comics</a>
+                <a class="gallery-link" href="#digital" >digital</a>
+                <a class="gallery-link" href="#traditional">traditional</a>
+                <a class="gallery-link" href="#fashion">fashion</a>
+                <a class="gallery-link" href="#fanart">fanart</a>
+                <a class="gallery-link" href="#comics">comics</a>
             </nav>
         </div>
 
-        <!-- <nav class="nav-bar" id="project-nav">
-            <a href="#project1" id="project1-link">digital</a>
-            <a href="#project2" id="project1-link">traditional</a>
-            <a href="#project3" id="project1-link">fashion</a>
-            <a href="#project4" id="project1-link">fanart</a>
-            <a href="#project5" id="project1-link">comics</a>
-        </nav> -->
-
         <div id="all-galleries">
 
-            <div class="gallery-container" id="illustration">
-
-                <!-- FANART -->
-                <div class="gallery" id="fanart">
+            <!-- FANART -->
+            <div class="gallery-container" id="fanart">
+                <div class="gallery">
                     <img src="images/fanart/bts/bts0.png" alt="bts" loading="lazy">
                     <img src="images/fanart/anime/anime0.jpeg" alt="anime" loading="lazy">
                     <img src="images/fanart/jesus/jesus0.png" alt="jesus" loading="lazy">
@@ -84,9 +83,11 @@
                     <img src="images/fanart/taehyun/taehyun0.png" alt="taehuyn" loading="lazy">
                     <img src="images/fanart/thatthat/thatthat0.png" alt="thatthat" loading="lazy">
                 </div>
+            </div>
 
-                <!-- FASHION -->
-                <div class="gallery" id="fashion">
+            <!-- FASHION -->
+            <div class="gallery-container" id="fashion">
+                <div class="gallery">
                     <img src="images/fashion/avavav/avavav0.jpeg" alt="avavav" loading="lazy">
                     <img src="images/fashion/bwego/bwego0.jpeg" alt="bwego" loading="lazy">
                     <img src="images/fashion/dune/dune0.png" alt="dune" loading="lazy">
@@ -97,41 +98,44 @@
                     <img src="images/fashion/milk/milk0.png" alt="milk" loading="lazy">
                     <img src="images/fashion/wrinkles/wrinkles0.jpeg" alt="wrinkles" loading="lazy">
                 </div>
-
-                <!-- COMICS -->
-                <div class="gallery" id="comics">
-                    <img src="images/comics" alt="" loading="lazy">
-                    <img src="images/comics" alt="" loading="lazy">
-                    <img src="images/comics" alt="" loading="lazy">
-                    <img src="images/comics" alt="" loading="lazy">
-                    <img src="images/comics" alt="" loading="lazy">
-                </div>
-
-                <!-- TRADITIONAL -->
-                <div class="gallery" id="traditional">
-                    <img src="images/traditional" alt="" loading="lazy">
-                    <img src="images/traditional" alt="" loading="lazy">
-                    <img src="images/traditional" alt="" loading="lazy">
-                    <img src="images/traditional" alt="" loading="lazy">
-                    <img src="images/traditional" alt="" loading="lazy">
-                </div>
-
-                <!-- DIGITAL -->
-                <div class="gallery" id="digital">
-                    <img src="images/digital" alt="" loading="lazy">
-                    <img src="images/digital" alt="" loading="lazy">
-                    <img src="images/digital" alt="" loading="lazy">
-                    <img src="images/digital" alt="" loading="lazy">
-                    <img src="images/digital" alt="" loading="lazy">
-                </div>
-
-                
             </div>
 
+            <!-- COMICS -->
+            <div class="gallery-container" id="comics">
+                <div class="gallery">
+                    <img src="images/comics/date/date0.png" alt="" loading="lazy">
+                    <img src="images/comics/emzine/emzine0.png" alt="" loading="lazy">
+                    <img src="images/comics/joe/joe0.jpeg" alt="" loading="lazy">
+                    <img src="images/comics/milf/milf0.png" alt="" loading="lazy">
+                    <img src="images/comics/therapy/therapy0.jpeg" alt="" loading="lazy">
+                </div>
+            </div>
+
+            <!-- TRADITIONAL -->
+            <!-- <div class="gallery-container" id="traditional">
+                <div class="gallery">
+                    <img src="images/traditional" alt="" loading="lazy">
+                    <img src="images/traditional" alt="" loading="lazy">
+                    <img src="images/traditional" alt="" loading="lazy">
+                    <img src="images/traditional" alt="" loading="lazy">
+                    <img src="images/traditional" alt="" loading="lazy">
+                </div>
+            </div> -->
+
+            <!-- DIGITAL -->
+            <!-- <div class="gallery-container" id="digital">
+                <div class="gallery">
+                        <img src="images/digital" alt="" loading="lazy">
+                        <img src="images/digital" alt="" loading="lazy">
+                        <img src="images/digital" alt="" loading="lazy">
+                        <img src="images/digital" alt="" loading="lazy">
+                        <img src="images/digital" alt="" loading="lazy">
+                    </div>
+                </div> -->
 
         </div>
+
     </main>
-</div>
 
     <footer>
         <a class="copyright" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">ⓒ Mads Thelin 2022</a>
@@ -139,8 +143,9 @@
         <a class="help" href="/help">what is going on with this website ?</a>
     </footer>
 
-    <script src="/library/toggle-galleries/jquery-3.6.1.min.js"></script>
+
     <script src="/library/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
-    
+
 </body>
+
 </html>

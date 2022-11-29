@@ -205,6 +205,10 @@ flex:10%;
             right: 20px;
         }
 
+        .gallery-container {
+            display: none;
+        }
+
         .gallery-container:nth-child(1) {
             display: block;
         }
