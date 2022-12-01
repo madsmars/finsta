@@ -227,6 +227,15 @@ footer {
     display: block;
 }
 
+.gallery-link {
+        color: #333333;
+    }
+    
+.gallery-link:hover {
+        color: pink;
+    }
+}
+
 h1 {
     color: #333333;
     font-size: 22px;
