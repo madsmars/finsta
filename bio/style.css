@@ -168,7 +168,7 @@ footer {
 }
 
 .about {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 171, 171, 0.5);
     width: 900px;
     height: 100vh;
     padding: 10px 10px;
@@ -176,6 +176,12 @@ footer {
     font-size: 50px;
     size: auto;
     padding-bottom: 5px;
+}
+
+.info {
+    padding-top: 10px;
+    line-height:5px;
+    padding-bottom: 10px;
 }
 
 .blog1 {
